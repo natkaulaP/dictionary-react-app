@@ -1,19 +1,4 @@
-.App-title{
-  text-align: center;
-}
-.App-question{
-  text-align: center;
-}
-.App-description{
-  display: inline-flex;
-  justify-content: center;
-  margin: 0.5em;
-  border-radius: 10px;
-  height: 2.5em;
-  width: 200px;
-  border: none;
-  outline: none;
-  background: #7c7c7c2b;
-  padding: 2px;
-  color:white;
+.App {
+  margin: 30px 0px;
+  
 }

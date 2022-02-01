@@ -1,0 +1,20 @@
+.Dictionary-title{
+  text-align:center; 
+}
+.Dictionary-question{
+  text-align: center;
+}
+.Dictionary-description{
+  display: inline-flex;
+  justify-content: center;
+text-align: center;
+  margin: 0.5em;
+  border-radius: 10px;
+  height: 2.5em;
+  width: 200px;
+  border: none;
+  outline: none;
+  background: #7c7c7c2b;
+  padding: 2px;
+  color:white;
+}
