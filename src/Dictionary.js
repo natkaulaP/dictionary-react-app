@@ -22,13 +22,13 @@ setKeyword(event.target.value);
   }
   return (
     <div className="Dictionary card">
-      <h1 className="Dictionary-title cyan">DICTIONARY</h1>
+      <h1 className="Dictionary-title">DICTIONARY</h1>
       <h2 className="Dictionary-question">
         What word definition you wanna search for?
       </h2>
-       <form onSubmit={search}>
+       <form className="Dictionary-imput"onSubmit={search}>
       <input
-        className="Dictionary-description "
+        className="Dictionary-description"
         type="search"
         placeholder="Type a word"
         autoComplete="off"

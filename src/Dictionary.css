@@ -5,9 +5,8 @@
   text-align: center;
 }
 .Dictionary-description{
-  display: inline-flex;
-  justify-content: center;
-text-align: center;
+  display:inline-block;
+  justify-content:center;
   margin: 0.5em;
   border-radius: 10px;
   height: 2.5em;
