@@ -26,17 +26,18 @@ setKeyword(event.target.value);
       <h2 className="Dictionary-question">
         What word definition you wanna search for?
       </h2>
-       <form className="Dictionary-imput"onSubmit={search}>
-      <input
-        className="Dictionary-description"
-        type="search"
-        placeholder="Type a word"
-        autoComplete="off"
-        autoFocus="on"
-        onChange={updateSearch}
-      />
+      <form className="Dictionary-imput" onSubmit={search}>
+        <input
+          className="Dictionary-description"
+          type="search"
+          placeholder="Type a word"
+          autoComplete="off"
+          autoFocus="on"
+          onChange={updateSearch}
+        />
+        
       </form>
-      <Results results={results}/>
+      <Results results={results} />
     </div>
   );
 }
