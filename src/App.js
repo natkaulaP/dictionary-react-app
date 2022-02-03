@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="App-conteiner">
         <main className="App-Description">
-          <Dictionary />
+          <Dictionary  defaultKeyword = "planet"/>
         </main>
         <footer className="link">
           <a
