@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="App-conteiner">
         <main className="App-Description">
-          <Dictionary  defaultKeyword = "planet"/>
+          <Dictionary defaultKeyword="home" />
         </main>
         <footer className="link">
           <a
@@ -17,6 +17,12 @@ function App() {
           >
             Open-source code by <span className="label ">Urszula Paruch</span>
           </a>
+          <a
+            href="https://eloquent-clarke-5a62c6.netlify.app"
+            target="_blank"
+            className="contact"
+            rel="noreferrer"
+          > hosted on <span className="label ">Netlify</span></a>
         </footer>
       </div>
     </div>
