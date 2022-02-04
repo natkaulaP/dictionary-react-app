@@ -36,6 +36,7 @@ setKeyword(event.target.value);
       </h2>
       <form  onSubmit={handleSubmit}>
         <input
+        defaultValue={props.defaultKeyword}
           type="search"
           placeholder="Type a word"
           autoComplete="off"
