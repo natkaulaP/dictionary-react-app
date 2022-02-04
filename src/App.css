@@ -1,10 +1,8 @@
 .App  {
-  margin: 3em 0em;
-   display: flex;
-  justify-content: center;
+  margin: 0 auto;
   align-items: center;
  height: 100%;
-
+max-width: 960px;
 }
 .App .link{text-align: center;}
 .App .label {
