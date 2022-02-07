@@ -1,13 +1,5 @@
-.Photos {
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-   box-sizing: border-box;
-  }
 .Photos img {
- width:260px;
-height:140px;
-margin:10px;
-border-radius: 4px;
-border: 1px solid white;
+  border-radius:5px;
+  margin-bottom:18px;
+  border: 1px solid white;
 }

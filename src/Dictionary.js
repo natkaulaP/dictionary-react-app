@@ -3,6 +3,7 @@ import './Dictionary.css'
 import axios from 'axios';
 import Results from './Results'
 import Photos from './Photos';
+
 export default function Dictionary(props){
   const [keyword, setKeyword]=useState(props.defaultKeyword);
 const[results,setResults]=useState(null)
